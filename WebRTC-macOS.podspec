@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name            = 'WebRTC-macOS'
-  s.version         = '0.0.1'
+  s.version         = '1.1.31999'
   s.license         =  { :type => 'MIT', :file => "LICENSE" }
   s.homepage        = 'https://tmthecoder.dev'
   s.authors         = { 'Tejas Mehta' => 'tmthecoder@gmail.com' }
