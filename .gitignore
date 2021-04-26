@@ -1,0 +1,5 @@
+src/
+.gclient
+.gclient_entries
+.DS_Store
+.cipd/
