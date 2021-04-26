@@ -22,6 +22,4 @@ RTC_OBJC_EXPORT
  */
 + (id<RTC_OBJC_TYPE(RTCVideoDecoder)>)vp9Decoder;
 
-+ (bool)isSupported;
-
 @end

@@ -42,10 +42,8 @@
 #import <WebRTC/RTCTracing.h>
 #import <WebRTC/RTCVideoSource.h>
 #import <WebRTC/RTCVideoTrack.h>
-#import <WebRTC/RTCVideoDecoderAV1.h>
 #import <WebRTC/RTCVideoDecoderVP8.h>
 #import <WebRTC/RTCVideoDecoderVP9.h>
-#import <WebRTC/RTCVideoEncoderAV1.h>
 #import <WebRTC/RTCVideoEncoderVP8.h>
 #import <WebRTC/RTCVideoEncoderVP9.h>
 #import <WebRTC/RTCNativeI420Buffer.h>
@@ -57,6 +55,7 @@
 #import <WebRTC/RTCMacros.h>
 #import <WebRTC/RTCMutableI420Buffer.h>
 #import <WebRTC/RTCMutableYUVPlanarBuffer.h>
+#import <WebRTC/RTCRtpFragmentationHeader.h>
 #import <WebRTC/RTCVideoCapturer.h>
 #import <WebRTC/RTCVideoCodecInfo.h>
 #import <WebRTC/RTCVideoDecoder.h>

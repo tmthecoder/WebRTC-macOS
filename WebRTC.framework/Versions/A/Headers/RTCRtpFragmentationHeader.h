@@ -10,18 +10,19 @@
 
 #import <Foundation/Foundation.h>
 
-#import <WebRTC/RTCCodecSpecificInfo.h>
 #import <WebRTC/RTCMacros.h>
 
-/** Class for H264 specific config. */
-typedef NS_ENUM(NSUInteger, RTCH264PacketizationMode) {
-  RTCH264PacketizationModeNonInterleaved = 0,  // Mode 1 - STAP-A, FU-A is allowed
-  RTCH264PacketizationModeSingleNalUnit        // Mode 0 - only single NALU allowed
-};
+NS_ASSUME_NONNULL_BEGIN
 
+/** Information for header. Corresponds to webrtc::RTPFragmentationHeader. */
 RTC_OBJC_EXPORT
-@interface RTC_OBJC_TYPE (RTCCodecSpecificInfoH264) : NSObject <RTC_OBJC_TYPE(RTCCodecSpecificInfo)>
+@interface RTC_OBJC_TYPE (RTCRtpFragmentationHeader) : NSObject
 
-@property(nonatomic, assign) RTCH264PacketizationMode packetizationMode;
+@property(nonatomic, strong) NSArray<NSNumber *> *fragmentationOffset;
+@property(nonatomic, strong) NSArray<NSNumber *> *fragmentationLength;
+@property(nonatomic, strong) NSArray<NSNumber *> *fragmentationTimeDiff;
+@property(nonatomic, strong) NSArray<NSNumber *> *fragmentationPlType;
 
 @end
+
+NS_ASSUME_NONNULL_END

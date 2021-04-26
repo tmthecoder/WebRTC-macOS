@@ -70,7 +70,7 @@ RTC_OBJC_EXPORT
 /** Initialize an RTCPeerConnection with a configuration, constraints, and
  *  delegate.
  */
-- (nullable RTC_OBJC_TYPE(RTCPeerConnection) *)
+- (RTC_OBJC_TYPE(RTCPeerConnection) *)
     peerConnectionWithConfiguration:(RTC_OBJC_TYPE(RTCConfiguration) *)configuration
                         constraints:(RTC_OBJC_TYPE(RTCMediaConstraints) *)constraints
                            delegate:(nullable id<RTC_OBJC_TYPE(RTCPeerConnectionDelegate)>)delegate;
