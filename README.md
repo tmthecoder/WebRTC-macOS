@@ -59,7 +59,7 @@ Merge the frameworks using `lipo`:
 ```
 cd ..
 
-cp -R src/out/mac_x64/WebRTC.framrwork WebRTC.framework
+cp -R src/out/mac_x64/WebRTC.framework WebRTC.framework
 
 lipo -create -output WebRTC.framework/WebRTC src/out/macos_x64/WebRTC.framework/WebRTC src/out/macos_arm64/WebRTC.framework/WebRTC
 ```
