@@ -63,10 +63,10 @@ cp -R src/out/mac_x64/WebRTC.framework WebRTC.framework
 
 lipo -create -output WebRTC.framework/WebRTC src/out/macos_x64/WebRTC.framework/WebRTC src/out/macos_arm64/WebRTC.framework/WebRTC
 ```
-The outputted `WebRTC.franework` can be imported into an Xcode Project and will support both Intel and Apple Silicon Macs
+The outputted `WebRTC.framework` can be imported into an Xcode Project and will support both Intel and Apple Silicon Macs
 
 ## Licensing
 
-- This port of WebRTC, and any changes that maybe made by me will fall under the [MIT License](https://github.com/tmthecoder/WebRTC-macOS/blob/main/LICENSE)
+- This port of WebRTC, and any changes made by me will fall under the [MIT License](https://github.com/tmthecoder/WebRTC-macOS/blob/main/LICENSE)
 
 - WebRTC's license can be found [here](https://github.com/tmthecoder/WebRTC-macOS/blob/main/LICENSE)
