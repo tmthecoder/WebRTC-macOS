@@ -69,4 +69,4 @@ The outputted `WebRTC.framework` can be imported into an Xcode Project and will 
 
 - This port of WebRTC, and any changes made by me will fall under the [MIT License](https://github.com/tmthecoder/WebRTC-macOS/blob/main/LICENSE)
 
-- WebRTC's license can be found [here](https://github.com/tmthecoder/WebRTC-macOS/blob/main/LICENSE)
+- WebRTC's license can be found [here](https://webrtc.org/support/license)
