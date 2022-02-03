@@ -61,7 +61,7 @@ cd ..
 
 cp -R src/out/mac_x64/WebRTC.framework WebRTC.framework
 
-lipo -create -output WebRTC.framework/WebRTC src/out/macos_x64/WebRTC.framework/WebRTC src/out/macos_arm64/WebRTC.framework/WebRTC
+lipo -create -output WebRTC.framework/WebRTC src/out/mac_x64/WebRTC.framework/WebRTC src/out/mac_arm64/WebRTC.framework/WebRTC
 ```
 The outputted `WebRTC.framework` can be imported into an Xcode Project and will support both Intel and Apple Silicon Macs
 
